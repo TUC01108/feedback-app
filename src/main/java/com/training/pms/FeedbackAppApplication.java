@@ -15,5 +15,10 @@ public class FeedbackAppApplication {
 	public String giveFeedback() {
 		return "Giving Feedback";
 	}
+	
+	@GetMapping("/giveGoodFeedback")
+	public String giveGoodFeedback() {
+		return "Giving Good Feedback";
+	}
 
 }
